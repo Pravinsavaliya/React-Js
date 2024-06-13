@@ -1,5 +1,6 @@
 
 import './App.css'
+import LocalCrud from './componets/LocalCrud.jsx'
 
 import UseDemo from './componets/UseDemo.jsx'
 
@@ -19,7 +20,8 @@ return(
         <Counter/><hr />
         <TenQuestion/><hr />
         <ES6/> */}
-        <UseDemo />
+        {/* <UseDemo /> */}
+        <LocalCrud />
 
     </div>
     </>
